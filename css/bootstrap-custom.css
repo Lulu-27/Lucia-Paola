@@ -2,19 +2,20 @@ a{
 	outline:0 !important;	
 }
 .navbar-light {
-	background-color:transparent !important;
-	font-size:14px;	
+	background-color:#fc931c !important;
+	font-size:16px;	
 }
 .navbar-light .navbar-nav .nav-link{
-	color:var(--color-negro);	
-	font-weight:400;
+	color: #fff;	
+	font-weight: 700;
+	text-transform: uppercase;
 }
 .navbar-light .navbar-nav .nav-link:hover{
-	color:var(--menu-hover);
+	color:#f7c328;
 }
 .navbar-light .navbar-nav .active .nav-link{
 	background-color:transparent;
-	color:var(--menu-hover);
+	color:#f7c328;
 }
 .navbar-light .navbar-nav .active .nav-link:hover{
 	background-color:transparent;
@@ -24,16 +25,16 @@ a{
 
 
 .navbar-light .navbar-nav .show > .nav-link{
-	color: #fff;	
+	color: #4A4643;	
 }
 .navbar-light .navbar-nav .show > .nav-link:focus,
 .navbar-light .navbar-nav .show > .nav-link:hover{
-    color: #fff;
+    color: #DA5241;
     background-color: transparent;
 }
 
 .dropdown-menu{
-	background-color:#212121;
+	background-color: #4A4643;
 	border:0;
 }
 .dropdown-menu .dropdown-item{
@@ -44,7 +45,7 @@ a{
 }
 .navbar-light .navbar-nav .show .dropdown-menu .dropdown-item:hover,
 .navbar-light .navbar-nav .show .dropdown-menu .dropdown-itema:focus {
-  color: #ff5518;
+  color: #4A4643;
   text-decoration: none;
   background-color: transparent;
 }
@@ -78,7 +79,6 @@ a{
 	
 }
 
-
 .carousel-caption{
 
 	top:50%;
@@ -108,19 +108,8 @@ a{
 }
 
 
-/*Altura definida para el Carousel manteniendo el aspecto de la imagen*/
 
-.carousel .carousel-item {
-  height: 500px;
-}
 
-.carousel-item img {
-    position: absolute;
-    object-fit:cover;
-    top: 0;
-    left: 0;
-    min-height: 500px;
-}
 
 
 
